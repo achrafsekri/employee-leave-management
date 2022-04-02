@@ -1,0 +1,25 @@
+.nav{
+    max-width: 100%;
+    max-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #345B63;
+
+    .right{
+        width: 12%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .avatar{
+            height: 25px;
+            width: 25px;
+            border-radius: 25px;
+        }
+    }
+    
+}

@@ -1,0 +1,63 @@
+.sidebar{
+    flex:2;
+    background-color: #345B63;
+    height: 100vh;
+
+    .top{
+        height: 15vh ;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .logo{
+            color: rgb(245, 222, 179);
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding-left: 15px;
+            padding-right: 15px;
+            letter-spacing: 2px;
+        }
+    }
+    .center{
+        height: 70vh;
+        color: wheat;
+        font-size: 1rem;
+        font-weight: 400;
+        .menu{
+            list-style: none;
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-start; 
+            padding: 0;
+
+            li{
+                height: 8vh;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding-left: 15px;
+                cursor: pointer;
+            }
+            
+            li:hover{
+                max-width: 100%;
+                background-color: #4a6e75;            
+            }
+            .link{
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 13px;
+                font-weight: 600;
+                text-decoration: none;
+                color: wheat;
+            }
+        }
+    }
+    .buttom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logout{
+            color: wheat;
+        }
+    }
+}
