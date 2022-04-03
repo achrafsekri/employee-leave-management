@@ -1,21 +1,19 @@
 import React from 'react'
-import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
-import MessageIcon from '@mui/icons-material/Message';
-import prof from '../../../resources/prof.jpg'
 import './nav_bar.scss'
+import AccountMenu from './nav_comps/Avatar_menu';
+
 function nav_bar() {
   return (
+    <React.Fragment>
     <div className='nav'>
-      <input type="text" className='search-bar' />
-      <div className="right">
-        <MessageIcon/>
-        <CircleNotificationsIcon/>
-        <div className="avatar">
-          <img src={prof} alt="professor picture" className='avatar' />
-        </div>
-        
+      <div className='left-side'></div>
+      <div className="right-side">
+          <AccountMenu /> 
       </div>
+     
     </div>
+    <hr />
+    </React.Fragment>
   )
 }
 
